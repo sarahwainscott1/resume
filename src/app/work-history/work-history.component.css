@@ -1,0 +1,15 @@
+#work{
+    border-top: 2px solid black;
+    
+}
+#heading {
+    font-weight: bold;
+    list-style-type: none;
+}
+#list {
+    font-weight: normal;
+    list-style-type: disc;
+}
+h5 {
+    margin-top: 10px;
+}

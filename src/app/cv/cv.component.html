@@ -1,0 +1,19 @@
+
+<h2>{{name}}</h2>
+<div id="personal">
+  {{email}} | {{phone}} | {{location}}
+</div>
+  <h6>Technologies Studied</h6>
+    <!--Better way to do topics table-->
+    <table class="table table-sm table-striped">
+      <tbody >
+        <tr *ngFor="let topics of Bootcamp">
+          <td *ngFor="let t of topics" [ngClass]="BootcampClass">{{t}}</td>
+          
+        </tr>
+      </tbody>
+    </table>
+
+    
+
+

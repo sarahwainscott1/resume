@@ -1,0 +1,11 @@
+<div id="ed">
+    <h5>Education</h5>
+    <ul *ngFor="let ed of EdHistory">
+      <li id="heading">{{ed.school}} | {{ed.major}} | {{ed.graduated}}
+        <ul *ngFor="let c of ed.courses" id="list">
+          <li>{{c}}</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+

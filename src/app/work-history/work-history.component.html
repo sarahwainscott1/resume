@@ -1,0 +1,12 @@
+<div id="work">
+  <h5>Work History</h5>
+<!--Better employment history-->
+<ul *ngFor="let w of WorkHistory">
+    <li id="heading">
+      {{w.position}} | {{w.employeer}} | {{w.timePeriod}}
+      <ul *ngFor="let r of w.responsibilities" id="list">
+        <li>{{r}}</li>
+      </ul>
+    </li>
+  
+  </ul>
